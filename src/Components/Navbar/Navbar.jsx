@@ -10,7 +10,7 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <div>
-      <Navbar className="fixed" bg="white">
+      <Navbar className="fixed" bg="white" expand="lg">
         <FcMenu size={45} />
         <img
           src={LOGO}

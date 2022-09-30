@@ -16,7 +16,7 @@ const Iconsbar = () => {
         <div className="flex-icon m-auto">
           <div className="commercial-shop " >
             <GiShop className="img-responsive center-block d-block mx-auto" />
-            <p className="text-center">Commercial Shop</p>
+            <p className="text-center fw-2">Commercial Shop</p>
           </div>
           <div className="commercial-office" >
             <ImOffice className="img-responsive center-block d-block mx-auto" />
