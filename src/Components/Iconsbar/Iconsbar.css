@@ -1,0 +1,19 @@
+.iconsbar{
+    background-color: #012b72;
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+    z-index: 20;
+}
+.flex-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    color: rgb(255, 255, 255);
+    
+}
+.flex-icon::-webkit-scrollbar{
+    display: none;
+}
