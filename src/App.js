@@ -4,6 +4,7 @@ import Iconsbar from './Components/Iconsbar/Iconsbar';
 import Banner from './Components/Banner/Banner';
 import Services from './Components/Services/Services';
 import CardsSlide from './Components/CardsSlide/CardsSlide';
+import Footer from './Components/Footer/Footer';
 import { GiShop } from "react-icons/gi";
 import { ImOffice } from "react-icons/im";
 import { BiLandscape } from "react-icons/bi";
@@ -30,6 +31,7 @@ function App() {
       <CardsSlide mode={"Co-working Space"} logo={ImOffice} title='Co-working Space' />
       <CardsSlide mode={"Private Office"} logo={RiBuilding4Line} title='Private Office' />
       <CardsSlide mode={"Meeting Room"} logo={MdMeetingRoom} title='Meeting Room' />
+      <Footer/>
      </div> 
   );
 }
