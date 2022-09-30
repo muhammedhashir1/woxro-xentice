@@ -1,7 +1,11 @@
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './Components/NavBar/NavBar';
+
 function App() {
   return (
     <div>
-      <h1>haaai</h1>
+      <NavBar/>
      </div> 
   );
 }
